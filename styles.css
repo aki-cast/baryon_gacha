@@ -80,8 +80,7 @@ button:hover {
 
 .column img {
     float: right;
-    margin-right: 20px;
-    max-width: 500px; /* 画像の最大幅を設定 */
+    max-width: 40%; /* 画像の最大幅を設定 */
     border-radius: 5px; /* 画像を角丸にする */
 }
 
