@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+    display: flex; /* Flexコンテナにする */
+    justify-content: space-between; /* アイテムを均等に配置 */
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+img {
+    max-width: 50%;
+    height: auto;
+}
+.result-item {
+    flex: 1; /* 空白スペースを均等に分割 */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 20px 40px; /* 大きなボタン */
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 30px; /* フォントサイズを大きく設定 */
+    margin-bottom: 20px; 
+}
+
+button:hover {
+    background-color: #c82333; /* ホバー時の背景色 */
+}
+.result-summary {
+    margin-top: 20px; /* result-summaryの上に余白を追加 */
+}
+
+.column {
+    background-color: #fff; /* 背景色を白に設定 */
+    border: 1px solid #ccc; /* ボーダーを追加 */
+    border-radius: 10px; /* 角丸 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* 影を追加 */
+    padding: 20px; /* パディングを追加 */
+    margin-top: 20px; /* 上部の余白を設定 */
+    text-align: left; /* テキストを左揃えに設定 */
+}
+
+.column h3 {
+    font-size: 24px; /* タイトルのフォントサイズを大きくする */
+    margin-bottom: 10px; /* タイトル下部の余白を追加 */
+    color: #333; /* タイトルの文字色を設定 */
+}
+
+.column p {
+    font-size: 16px; /* 本文のフォントサイズを設定 */
+    line-height: 1.5; /* 行間を設定 */
+    color: #666; /* 本文の文字色を設定 */
+}
+
+.column img {
+    float: right;
+    margin-right: 20px;
+    max-width: 500px; /* 画像の最大幅を設定 */
+    border-radius: 5px; /* 画像を角丸にする */
+}
+
+.summary-counter {
+    margin-top: 20px; /* カウンターの上に余白を追加 */
+    font-size: 16px;
+    padding: 10px;
+    background-color: #f0f0f0; /* 背景色を設定 */
+    border-radius: 5px; /* 角丸 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* 影を追加 */
+    text-align: center; /* テキストを中央揃え */
+}
+
+/* カウンター内の各要素をブロックとして表示 */
+.summary-counter div {
+    display: inline-block;
+    margin-right: 10px; /* 各要素の右側に余白を追加 */
+}
+
+/* ... 以前のスタイル ... */
+
+.particle1-bg {
+    background-color: red; /* 赤色の背景色 */
+    color: white; /* 白色の文字色 */
+    padding: 5px 10px; /* パディングを追加してテキストを中央に配置 */
+    margin: 5px; /* 各要素の間に余白を追加 */
+    border-radius: 5px; /* 角丸 */
+    display: inline-block; /* ブロック要素を横並びに配置 */
+}
+
+.particle2-bg {
+    background-color: blue; /* 青色の背景色 */
+    color: white; /* 白色の文字色 */
+    padding: 5px 10px; /* パディングを追加してテキストを中央に配置 */
+    margin: 5px; /* 各要素の間に余白を追加 */
+    border-radius: 5px; /* 角丸 */
+    display: inline-block; /* ブロック要素を横並びに配置 */
+}
+
+.particle3-bg {
+    background-color: green; /* 緑色の背景色 */
+    color: white; /* 白色の文字色 */
+    padding: 5px 10px; /* パディングを追加してテキストを中央に配置 */
+    margin: 5px; /* 各要素の間に余白を追加 */
+    border-radius: 5px; /* 角丸 */
+    display: inline-block; /* ブロック要素を横並びに配置 */
+}
+
+.particle4-bg {
+    background-color: orange; /* オレンジ色の背景色 */
+    color: white; /* 白色の文字色 */
+    padding: 5px 10px; /* パディングを追加してテキストを中央に配置 */
+    margin: 5px; /* 各要素の間に余白を追加 */
+    border-radius: 5px; /* 角丸 */
+    display: inline-block; /* ブロック要素を横並びに配置 */
+}
+
+.particle5-bg {
+    background-color: rgb(207, 90, 201); /* オレンジ色の背景色 */
+    color: white; /* 白色の文字色 */
+    padding: 5px 10px; /* パディングを追加してテキストを中央に配置 */
+    margin: 5px; /* 各要素の間に余白を追加 */
+    border-radius: 5px; /* 角丸 */
+    display: inline-block; /* ブロック要素を横並びに配置 */
+}
+
+.particle6-bg {
+    background-color: rgb(235, 231, 35); /* オレンジ色の背景色 */
+    color: white; /* 白色の文字色 */
+    padding: 5px 10px; /* パディングを追加してテキストを中央に配置 */
+    margin: 5px; /* 各要素の間に余白を追加 */
+    border-radius: 5px; /* 角丸 */
+    display: inline-block; /* ブロック要素を横並びに配置 */
+}
+
+.particle7-bg {
+    background-color: rgb(188, 84, 230); /* オレンジ色の背景色 */
+    color: white; /* 白色の文字色 */
+    padding: 5px 10px; /* パディングを追加してテキストを中央に配置 */
+    margin: 5px; /* 各要素の間に余白を追加 */
+    border-radius: 5px; /* 角丸 */
+    display: inline-block; /* ブロック要素を横並びに配置 */
+}
+
+.particle8-bg {
+    background-color: rgb(78, 192, 212); /* オレンジ色の背景色 */
+    color: white; /* 白色の文字色 */
+    padding: 5px 10px; /* パディングを追加してテキストを中央に配置 */
+    margin: 5px; /* 各要素の間に余白を追加 */
+    border-radius: 5px; /* 角丸 */
+    display: inline-block; /* ブロック要素を横並びに配置 */
+}
+/* ... 以後のスタイル ... */
+
+
+
