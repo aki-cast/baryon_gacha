@@ -198,6 +198,12 @@ button:hover {
         min-height: 100vh;
         background-color: #f0f0f0;
     }
+    body h1{
+        font-size:24px;
+    }
+    body h2{
+        font-size:20px;
+    }
     .result-summary img {
         max-width: 100%; /* 画像の最大幅を100%に設定 */
         height: auto; /* アスペクト比を維持するために高さを自動調整 */
