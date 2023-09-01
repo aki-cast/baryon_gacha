@@ -28,14 +28,14 @@ body {
 
 
 .result-summary img {
-    max-width: 100%; /* 画像の最大幅を100%に設定 */
+    max-width: 60%; /* 画像の最大幅を100%に設定 */
     height: auto; /* アスペクト比を維持するために高さを自動調整 */
     display: block; /* 余分なスペースを削除し、画像を中央に配置 */
     margin: 0 auto; /* 画像を中央に配置 */
 }
 
 img {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
 }
 .result-item {
